@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Venta de Yerba Mate</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a class="active" href="compra.html">Comprar</a></li>
+        <li><a class="active" href="carrito.html">Carrito</a></li>
+      </ul>
+    </nav>
+    <h1><img src="imagenes/Logo.png" alt="Logo del sitio" style="height: 200px; width: 200px;"></h1>
+    <h2>¡Descubre el auténtico sabor de la yerba mate!</h2>
+  </header>
+  
+  <div class="container">
+    <h2>Compra de Yerba Mate</h2>
+    <p>Selecciona uno de nuestros productos:</p>
+    
+    <div class="product">
+      <h3>Paquete de Yerba</h3>
+      <p>Precio: $550</p>
+      <button onclick="addToCart('paquete')">Agregar al carrito</button>
+    </div>
+    
+    <div class="product">
+      <h3>Combo de 5 Paquetes de Yerba</h3>
+      <p>Precio: $2500</p>
+      <button onclick="addToCart('combo5')">Agregar al carrito</button>
+    </div>
+    
+    <div class="product">
+      <h3>Combo de 10 Paquetes de Yerba</h3>
+      <p>Precio: $5000</p>
+      <button onclick="addToCart('combo10')">Agregar al carrito</button>
+    </div>
+  </div>
+  
+  <footer>
+    <p>Todos los derechos reservados &copy; 2023 - Sitio de Venta de Yerba Mate</p>
+  </footer>
+  
+  <script src="java.js"></script>
+</body>
+</html>
